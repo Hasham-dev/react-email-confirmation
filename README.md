@@ -1,16 +1,12 @@
 # React Confirm Email
 
-![React Image Upload](https://cdn-images-1.medium.com/max/800/1*Tx026w_PlV29l5OiBFqCXQ.gif)
 ## Demo
-[Live demo](http://react-confirm-email.surge.sh)
-
-## Medium post
-[Email Confirmation with React and Node](https://medium.com/p/257e5d9de725/)
+[Live demo](http://hv-email-confirmation.surge.sh/)
 
 ## Getting Started
 
 ```
-git clone https://github.com/funador/react-confirm-email.git
+git clone https://github.com/Hasham-dev/react-email-confirmation
 cd react-confirm-email/client
 npm i && npm start
 // open another terminal tab
@@ -34,7 +30,3 @@ MAIL_PASS=your_password
 ```
 #### Very Important!!!
 In order for your newly created account to be able to send emails on your behalf (and allow this application to run), you will likely need to allow 'Less secure app access' on your new gmail account as described [here](https://support.google.com/accounts/answer/6010255?hl=en). 
-
-### Issues
-
-Something not working?  Please [open an issue](https://github.com/funador/react-confirm-email/issues) or submit a PR.

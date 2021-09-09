@@ -1,3 +1,3 @@
 export const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'http://localhost:8080'
+  ? 'https://mighty-coast-85233.herokuapp.com/'
   : 'http://localhost:8080'
