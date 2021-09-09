@@ -1,0 +1,9 @@
+● mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; disabled; vendor preset: enabled)
+     Active: inactive (dead)
+       Docs: https://docs.mongodb.org/manual
+
+ستمبر 09 20:20:44 hasham-LIFEBOOK-E744 systemd[1]: Started MongoDB Database Server.
+ستمبر 09 20:21:40 hasham-LIFEBOOK-E744 systemd[1]: Stopping MongoDB Database Server...
+ستمبر 09 20:21:40 hasham-LIFEBOOK-E744 systemd[1]: mongod.service: Succeeded.
+ستمبر 09 20:21:40 hasham-LIFEBOOK-E744 systemd[1]: Stopped MongoDB Database Server.

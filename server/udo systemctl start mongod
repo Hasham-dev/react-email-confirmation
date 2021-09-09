@@ -1,0 +1,10 @@
+[0;1;31m●[0m mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2021-09-09 20:56:26 PKT; 1min 11s ago
+       Docs: https://docs.mongodb.org/manual
+    Process: 34608 ExecStart=/usr/bin/mongod --config /etc/mongod.conf [0;1;31m(code=exited, status=14)[0m
+   Main PID: 34608 (code=exited, status=14)
+
+ستمبر 09 20:56:26 hasham-LIFEBOOK-E744 systemd[1]: Started MongoDB Database Server.
+ستمبر 09 20:56:26 hasham-LIFEBOOK-E744 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongod.service: Main process exited, code=exited, status=14/n/a[0m
+ستمبر 09 20:56:26 hasham-LIFEBOOK-E744 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmongod.service: Failed with result 'exit-code'.[0m
