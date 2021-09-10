@@ -8,9 +8,7 @@ const emailController = require('./email/email.controller')
 const { PORT, CLIENT_ORIGIN, DB_URL } = require('./config')
 
 // Only allow requests from our client
-app.use(cors({
-  origin: CLIENT_ORIGIN
-}))
+app.use(cors())
 
 // Allow the app to accept JSON on req.body
 app.use(express.json())
